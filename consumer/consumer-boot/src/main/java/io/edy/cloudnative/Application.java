@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @author yaozp (mailto: yaozp@primeton.com)
+ * @author edison yao (mailto: edisonyao1227@gmail.com)
  * @class Application
  * @date 2021/6/27
  * @description
@@ -15,7 +15,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class Application {
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(Application.class, args);
+  }
 }

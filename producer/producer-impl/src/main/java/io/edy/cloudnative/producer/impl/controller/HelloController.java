@@ -4,7 +4,7 @@ import io.edy.cloudnative.api.ProducerApi;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author yaozp (mailto: yaozp@primeton.com)
+ * @author edison yao (mailto: edisonyao1227@gmail.com)
  * @class HelloController
  * @date 2021/6/27
  * @description
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController implements ProducerApi {
 
-    @Override
-    public String sayHello(String name) {
-        return "Producer say hello to " + name;
-    }
+  @Override
+  public String sayHello(String name) {
+    return "Producer say hello to " + name;
+  }
 }
